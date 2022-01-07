@@ -10,24 +10,25 @@ button {
     text-align: center;
 }
 
-<<<<<<< HEAD
 #form {
     display: flex;
     text-align: center;
 }
 
-#user-button {
+#button {
     display: flex;
     text-align: center;
+    font-size: 50px;
+    margin: 0 auto;
 }
 
 .input-box {
-    display: block;
-    margin: 0 auto;
-    position: relative;
-    margin: 20% 30px;
+    margin: 20% auto;
+    height:20px;
+    width: 500px;
 }
-=======
+
+
 /* Hover Page*/
 .container {
     display: flex;
@@ -44,4 +45,3 @@ footer {
     display: flex;
     justify-content: center;
 }
->>>>>>> 6a276ef95c28b44b70fe5a1b27c490abad0c0817
