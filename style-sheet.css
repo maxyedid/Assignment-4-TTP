@@ -10,6 +10,7 @@ button {
     text-align: center;
 }
 
+<<<<<<< HEAD
 #form {
     display: flex;
     text-align: center;
@@ -26,3 +27,21 @@ button {
     position: relative;
     margin: 20% 30px;
 }
+=======
+/* Hover Page*/
+.container {
+    display: flex;
+    justify-content: center;
+}
+
+#hover {
+    font-weight: bold;
+    color:blue;
+    font-size: 60px;
+}
+
+footer {
+    display: flex;
+    justify-content: center;
+}
+>>>>>>> 6a276ef95c28b44b70fe5a1b27c490abad0c0817
