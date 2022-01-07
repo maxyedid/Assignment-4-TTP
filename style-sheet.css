@@ -1,0 +1,11 @@
+button {
+    font-size: 100px;
+}
+#right {
+    float: right;
+}
+
+#rightText {
+    color: red;
+    text-align: center;
+}
