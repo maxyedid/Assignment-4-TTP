@@ -13,6 +13,5 @@ rightButton.addEventListener("click", function() {
     text.innerText = "No, I'm right"
 })
 
-document.body.append(text);
+document.getElementById("buttons").append(text)
 text.id = "rightText"
-text.style.textAlign = "center";
