@@ -3,8 +3,11 @@ button {
 }
 #right {
     float: right;
+    background-color: green;
 }
-
+#left {
+    background-color: red;
+}
 #rightText {
     color: red;
     text-align: center;
