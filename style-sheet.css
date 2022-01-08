@@ -10,6 +10,22 @@ button {
     text-align: center;
 }
 
+/* Hover Page*/
+.container {
+    display: flex;
+    justify-content: center;
+}
+
+#hover {
+    font-weight: bold;
+    color:blue;
+    font-size: 60px;
+}
+
+footer {
+    display: flex;
+    justify-content: center;
+}
 #form {
     display: flex;
     text-align: center;
