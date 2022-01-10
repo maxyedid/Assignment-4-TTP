@@ -3,7 +3,6 @@ let buttonEl = document.getElementById("button")
 
 
 buttonEl.addEventListener("click", function() {
-
     let password = document.getElementById("the-pass").value
     let userName = document.getElementById("the-username").value
     let email = document.getElementById("the-email").value

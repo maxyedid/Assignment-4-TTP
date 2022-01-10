@@ -65,3 +65,19 @@ footer {
     display: flex;
     justify-content: center;
 }
+#form {
+    display: flex;
+    text-align: center;
+}
+
+#user-button {
+    display: flex;
+    text-align: center;
+}
+
+.input-box {
+    display: block;
+    margin: 0 auto;
+    position: relative;
+    margin: 20% 30px;
+}
