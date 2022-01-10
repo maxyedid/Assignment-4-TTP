@@ -15,7 +15,8 @@ button {
 /*Login Page*/
 #form {
     display: flex;
-    text-align: center;
+    justify-content: center;
+    align-items: center;
 }
 
 #button {
@@ -29,16 +30,16 @@ button {
 
 .input-box {
     display:block;
-    margin: 16% auto;
-    height:20px;
-    width: 300px;
+    margin: 5% auto;
+    height: 20px;
+    width: 250px;
 }
 
 #message {
     text-align: center;
     border: 5px darkgreen ridge;
     width: fit-content;
-    margin: 50px auto;
+    margin: 25px auto;
     background-color: green;
     padding: 5px;
 }
