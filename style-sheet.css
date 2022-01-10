@@ -10,6 +10,45 @@ button {
     text-align: center;
 }
 
+
+
+/*Login Page*/
+#form {
+    display: flex;
+    text-align: center;
+}
+
+#button {
+    display: flex;
+    text-align: center;
+    font-size: 50px;
+    margin: 0 auto;
+    background-color: red;
+    border: darkred 2px solid;
+}
+
+.input-box {
+    display:block;
+    margin: 16% auto;
+    height:20px;
+    width: 300px;
+}
+
+#message {
+    text-align: center;
+    border: 5px darkgreen ridge;
+    width: fit-content;
+    margin: 50px auto;
+    background-color: green;
+    padding: 5px;
+}
+
+#login-page {
+    background-image: url(/images/login-background.jpg);
+}
+
+
+
 /* Hover Page*/
 .container {
     display: flex;
