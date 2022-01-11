@@ -47,7 +47,23 @@ button {
 #login-page {
     background-image: url(images/login-background.jpg);
 }
+#login-nav {
+    font-size: 20px;
+    font-weight: bold;
+}
 
+#login-nav:link {
+    color: aliceblue;
+}
+
+#login-nav:visited {
+    color: lightseagreen;
+
+}
+
+#anchor-holder {
+    text-align: center;
+}
 
 
 /* Hover Page*/
@@ -78,7 +94,6 @@ footer {
 
 .input-box {
     display: block;
-    margin: 0 auto;
     position: relative;
     margin: 20% 30px;
 }

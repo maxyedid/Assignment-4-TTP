@@ -1,19 +1,20 @@
 <!DOCTYPE html>
-<html>
-    <head>
-        <title>
-            Login Page for Assignment 4
-        </title>
-        <link href="../style-sheet.css" rel="stylesheet">
-    </head>
-    <body id="login-page">
-        <h1 id="message">Please Enter Your Information to Check Existance in Database</h1>
-        <div id="form">
-            <input type="text" id="the-username" class="input-box" placeholder="Username">
-            <input type="text" id="the-email" class="input-box" placeholder="Email">
-            <input type="password" id="the-pass" class="input-box" placeholder="Password">
-        </div>
-        <button id="button" on-click="clickedButt()">Submit</button>
-        <script src="../js/login_js.js"></script>
-    </body>
-</html>
+<head>
+    <title>
+        Login Page for Assignment 4
+    </title>
+    <link href="../style-sheet.css" rel="stylesheet">
+</head>
+<body id="login-page">
+<h1 id="message">Please Enter Your Information to Check Existence in Database</h1>
+<div id="form">
+    <label for="the-username"><input type="text" id="the-username" class="input-box" placeholder="Username"></label>
+    <label for="the-email"><input type="text" id="the-email" class="input-box" placeholder="Email"></label>
+    <label for="the-pass"><input type="password" id="the-pass" class="input-box" placeholder="Password"></label>
+</div>
+<button id="button">Submit</button>
+<script src="../js/login_js.js"></script>
+<p id="anchor-holder">
+    <a id="login-nav" href="../index.html">Back to Index</a>
+</p>
+</body>
